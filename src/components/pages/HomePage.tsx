@@ -111,7 +111,6 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
     <div className="min-h-screen bg-background text-foreground font-paragraph selection:bg-accent-teal selection:text-background overflow-x-clip">
       <NoiseOverlay />
       <Header />
-
       {/* --- HERO SECTION: The Galaxy Portal --- */}
       <section className="relative w-full h-screen flex items-center justify-center overflow-hidden">
         {/* Dynamic Background (Galaxy) */}
@@ -163,9 +162,7 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
                 </h1>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-lg md:text-xl font-paragraph text-accent-teal/80">
-                  <span className="px-4 py-1 border border-accent-teal/30 rounded-full bg-accent-teal/5 backdrop-blur-sm">
-                    {profile?.educationYear || '2003'}
-                  </span>
+
                   <span className="hidden md:block w-2 h-2 bg-accent-purple rounded-full animate-pulse" />
                   <span className="uppercase tracking-widest">
                     {profile?.role || 'Video Editor'}
@@ -191,7 +188,6 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
           </AnimatePresence>
         </div>
       </section>
-
       {/* --- SHOWREELS SECTION: The Timeline --- */}
       <section id="showreels" className="relative py-32 w-full bg-background overflow-hidden">
         {/* Sticky Title */}
@@ -319,7 +315,6 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
           </div>
         </div>
       </section>
-
       {/* --- ABOUT SECTION: The Narrative --- */}
       <section id="about" className="relative py-32 w-full bg-background overflow-hidden">
         {/* Background Elements */}
@@ -395,7 +390,6 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
           </div>
         </div>
       </section>
-
       {/* --- CTA / FOOTER PRE-SECTION --- */}
       <section className="py-32 border-t border-white/5 bg-background relative overflow-hidden">
          <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-accent-purple/10 via-transparent to-transparent" />
@@ -417,7 +411,6 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
             </a>
          </div>
       </section>
-
       <Footer />
     </div>
   );
