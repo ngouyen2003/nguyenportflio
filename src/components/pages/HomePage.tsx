@@ -96,7 +96,7 @@ export default function HomePage() {
   // --- Render Helpers ---
   
   // Fallback text content from prompt if API data is missing
-  const defaultBio = ` Hầu hết mọi người nghĩ video editor chỉ là người đến sau cùng — khi mọi thứ đã quay xong, khi câu chuyện đã có sẵn. Nhưng thật ra, rất nhiều video chỉ thật sự bắt đầu… khi timeline được mở ra.
+  const defaultBio = `Hầu hết mọi người nghĩ video editor chỉ là người đến sau cùng — khi mọi thứ đã quay xong, khi câu chuyện đã có sẵn. Nhưng thật ra, rất nhiều video chỉ thật sự bắt đầu… khi timeline được mở ra.
 
 Tôi là Cao Văn Nguyên, một video editor làm việc chủ yếu với các nội dung mạng xã hội. Công việc của tôi không chỉ là cắt ghép, mà là tìm ra khoảnh khắc đủ mạnh để khiến người xem dừng lại thêm vài giây giữa hàng trăm video họ đang lướt qua. Một nhịp cắt đúng lúc, một dòng caption đúng chỗ, hay một đoạn hook đủ tò mò — đôi khi chỉ cần vậy là một video đã có thể sống lâu hơn trên màn hình của ai đó.
 
