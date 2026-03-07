@@ -159,7 +159,7 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
                 />
 
                 <h1 className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-white/50 relative z-20">
-                  {profile?.name || 'Cao Văn Nguyên'}
+                  Cao Văn Nguyên
                 </h1>
 
                 <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-lg md:text-xl font-paragraph text-accent-teal/80">
