@@ -165,7 +165,7 @@ Giữa một thế giới mà ai cũng có thể quay video, tôi chọn làm ng
 
                   <span className="hidden md:block w-2 h-2 bg-accent-purple rounded-full animate-pulse" />
                   <span className="uppercase tracking-widest">
-                    {profile?.role || 'Video Editor'}
+                    Video Editor
                   </span>
                 </div>
 
